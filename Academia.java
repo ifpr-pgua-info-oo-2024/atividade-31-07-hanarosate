@@ -1,7 +1,11 @@
+import java.util.List;
+
 public class Academia {
     private String nome;
     private String tel;
     private String end;
+     
+    List<Aluno> Alunos;
 
     public Academia (String nome, String tel, String end){
         this.nome = nome;
@@ -32,6 +36,10 @@ public class Academia {
     public void setEnd(String end) {
         this.end = end;
     } 
+   
+    public List<Aluno> getAlunos() {
+        return Alunos; 
+    }
 
 
 
